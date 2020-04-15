@@ -1,4 +1,21 @@
 <hello name="{{ name }}"></hello>
+<script>            
+function formController($scope)            
+{ $scope.topow = function() 
+{ return Math.pow($scope.a, $scope.b;};}</script>
 <p>
-  Start editing to see some magic happen :)
+  Angular Practice
+<br><br>
+  Angka 1 : <input [(ngModel)]="a" type="text"/>
+  Angka 2 : <input [(ngModel)]="b" type="text"/>
+  <button (click)="hitung()">Save</button>
+   <button (click)="clear()">Clear</button>
+  <br>
+  Hasil : {{hasil}}
+  <br>
+  Kondisi : {{status}}
+
+  <br>
+
 </p>
+ <div *ngIf = "hasil != 0"[innerHTML]="output" [(ngModel)]="data">
