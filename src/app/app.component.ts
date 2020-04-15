@@ -24,7 +24,7 @@ for(let i = this.b ;i<=this.hasil;i++)
     {
           this.text = this.text + "*"
     }
-           this.text = this.text + "<br/>"
+          this.text = this.text + "<br/>"
 }
 }
 else
